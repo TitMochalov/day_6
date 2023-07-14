@@ -1,0 +1,32 @@
+.conteiner{
+  position: relative;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.sqrs{
+position: absolute;
+top: 50%;
+right:50%;
+}
+
+.onesqr{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 10px green;
+  background-color: blueviolet;
+}
+
+.twosqr{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 10px rgb(192, 45, 236);
+  background-color: rgb(80, 197, 168);
+}
+
+.onesqr{
+  transform: translateX(10vw) skew(30deg);
+}

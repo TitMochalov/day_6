@@ -1,0 +1,23 @@
+.wrapper{
+  padding: 50px;
+  min-height: 100%;
+}
+
+
+.conteiner{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.item{
+  background-color: blueviolet;
+border: 5px solid rgb(15, 12, 12);
+font-size: 40px;
+pad: .8em;
+text-align: center;
+}
+
+.grid-1{
+  display: grid;
+  grid-template: auto auto / 1fr 1fr minmax(100px,200px) 1fr 1fr;
+}

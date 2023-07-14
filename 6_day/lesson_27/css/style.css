@@ -1,0 +1,33 @@
+.conteiner {
+  position: relative;
+  margin: 50px;
+  width: auto;
+  height: 300px;
+  border: 5px solid rgb(92, 71, 143);
+  border-radius: 3%;
+  background-color: rgb(80, 206, 238);
+  box-shadow: 10px 10px 10px rgb(120, 41, 185);
+}
+
+.block {
+  position: relative;
+}
+
+.text {
+position: absolute;
+letter-spacing: 5px;
+word-spacing: 10px;
+font-size: large;
+text-shadow: 3px 3px 3px rgb(58, 28, 28);
+animation: more-block 2s infinite alternate ease-in-out;
+}
+
+@keyframes more-block{
+  0%{
+    color: red;
+  }
+
+  100%{
+    color: black;
+  }
+}
